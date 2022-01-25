@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/vicon.png" type="image/x-icon">
+    <title>login</title>
+</head>
+
+<body>
+    <div id="ground">
+        <main>
+            <h1>Cadastre-se</h1>
+            <div id="principal">
+                <div class="ass">
+                    <p> Email </p>
+                    <input type="email" id="email" min=0>
+                </div>
+                <div class="ass">
+                    <p> Senha </p>
+                    <input type="password" id="password" min=0>
+                </div>
+            </div>
+            <div id="secundaria">
+                <div id="certfy">
+                    <input type="checkbox" name="" id="lembrar">
+                    <p id="lembrartxt"> lembrar-me</p>
+
+                </div>
+
+                <div id="end">
+                    <button type="submit" onclick="ala()">ENTRAR</button>
+                </div>
+            </div>
+        </main>
+
+        <div id="container2">
+            <p>Aguarde um instante...</p>
+            <div id="carregar"></div>
+        </div>
+    </div>
+
+    <div id="stand">
+        <div id="two-push"></div>
+
+        <div id="stage-final">
+            <img src="assets/concluido.png" alt="">
+            <p>Seu cadastro foi concluido com sucesso!</p>
+        </div>
+    </div>
+
+    <script src="carregar.js"></script>
+
+</body>
+
+</html>

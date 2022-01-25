@@ -1,0 +1,192 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2? family = Poppins: ital, wght @ 0,100; 0,400; 0,500; 0,700; 1,100; 1,400 & display = swap');
+
+body{
+    background-image: url(assets/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#ground{
+    background-color:rgba(35, 82, 211, 0.404) ;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    width: 430px;
+    height: 400px;
+    margin: 8%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+h1{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#principal{
+    height: 200px;
+}
+
+.ass{
+    margin-top: 20px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: rgba(161, 163, 172, 0.151);
+    padding-left: 10px;
+}
+
+
+#lembrar{
+    width: 15px;
+    height: 50px;
+}
+#secundaria{
+    margin-bottom: 10px;
+}
+
+#certfy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    height: 10px;
+}
+
+#lembrartxt{
+    margin-left: 5px;
+}
+
+
+
+
+#end{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 5px;
+    margin: auto;
+    width: 50%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+
+}
+
+#container2{
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 20px;
+    width: 34%;
+    height: 160px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 200;
+    box-shadow: 0px 0px 5px white;
+
+}
+
+#carregar{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border: solid 4px rgba(169, 169, 169, 0.377);
+    border-top: solid 4px darkgrey;
+    border-radius:50% ;
+    animation: rotat 1s 0s infinite normal;
+
+}
+
+#stand{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#two-push{
+    position: fixed;
+    background-image: url(assets/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    height: 100vh;
+    width: 100vw;
+}
+
+#stage-final{
+    background-color:rgb(255, 255, 255);
+    height: 300px;
+    width: 330px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px white;
+    border: solid 3px white;
+    z-index:1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+#stage-final img{
+    animation: concluido 2s 0s  normal;
+    margin-bottom: 50px;
+    height: 120px;
+    width: 120px;
+}
+
+
+@keyframes rotat{
+    from{
+        
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes concluido{
+    1%{
+        
+        transform:scale(0.5);
+    }
+    100%{
+        transform:scale(1);
+    }
+}
