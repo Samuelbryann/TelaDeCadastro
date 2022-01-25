@@ -1,1 +1,1 @@
-https://cadastro.netlify.app
+https://cadastre.netlify.app/
